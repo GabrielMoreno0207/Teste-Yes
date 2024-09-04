@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transforme sua Oficina</title>
+    <!-- BOOTSTRAP ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="logo">
+          <a href="#">
+            <img src="assets/logo.png" alt="Logo" class="logo-img" />
+          </a>
+        </div>
+        <!-- Botão do Menu para Dispositivos Móveis -->
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Ferramentas</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Segmentos ↓</a>
+            <div class="dropdown-content">
+              <a href="#">Serviço 1</a>
+              <a href="#">Serviço 2</a>
+              <a href="#">Serviço 3</a>
+            </div>
+          </li>
+          <li><a href="#">Nossos Parceiros</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><button class="btn">Solicitar Demonstração!</button></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <div class="main-content">
+      <div class="content-wrapper">
+        <div class="slogan">
+          <h1>
+            Transforme sua <span class="spn">Oficina</span> com
+            <span class="naoquebra">
+              Tecnologia de Ponta
+              <i class="bi bi-wrench-adjustable-circle-fill"></i>
+            </span>
+          </h1>
+          <p>
+            Soluções integradas para otimizar processos e aumentar a
+            produtividade na sua mecânica.
+          </p>
+          <ul>
+            <li>
+              <i class="bi bi-check-circle-fill"></i> Controle completo de
+              Agendamentos;
+            </li>
+            <li>
+              <i class="bi bi-check-circle-fill"></i> Módulos completos para sua
+              gestão;
+            </li>
+            <li>
+              <i class="bi bi-check-circle-fill"></i> Não precisa de cartão de
+              crédito.
+            </li>
+          </ul>
+        </div>
+        <div class="image-container">
+          <img src="assets/mecanico.png" alt="mecanico" class="main-image" />
+        </div>
+        <div class="form-container">
+          <form>
+            <h2>Experimente <span class="spn2">grátis</span> nosso software</h2>
+            <br />
+            <input
+              type="text"
+              id="nameM"
+              name="nameM"
+              placeholder="Nome da mecânica"
+            />
+            <br />
+            <input type="text" id="name" name="name" placeholder="Seu Nome" />
+            <br />
+            <input
+              type="text"
+              id="whatsapp"
+              name="whatsapp"
+              placeholder="Número do whatsapp"
+            />
+            <br />
+            <select id="focus" name="focus">
+              <option disabled selected>Qual o foco da sua oficina?</option>
+              <option value="option1">Opção 1</option>
+              <option value="option2">Opção 2</option>
+            </select>
+
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                id="lgpd"
+                name="lgpd"
+                style="margin-top: 12px"
+              />
+              <label for="lgpd">
+                Ao cadastrar-se, você autoriza o tratamento dos seus dados
+                conforme a Lei Geral de Proteção de Dados Pessoais, Lei nº
+                13.709/2018.
+              </label>
+            </div>
+            <button type="submit" class="btn">Solicitar Contato</button>
+            <p>*Totalmente sem compromisso</p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      Desenvolvido por <span>Gabriel Moreno</span>
+      <br />
+      <img src="assets/logo.webp" alt="YesDev" style="width: 60px" />
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
