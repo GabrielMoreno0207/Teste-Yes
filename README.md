@@ -17,6 +17,11 @@
       "curso": "Ciência da Computação",
       "universidade": "Centro Universitário de Adamantina FAI",
       "ano_formatura": 2023
+    },
+    "graduacao": {
+      "curso": "Informática para Internet",
+      "universidade": "Etec Amim Jundi - Centro Paula Souza",
+      "ano_formatura": 2019
     }
   },
   "soft_skills": [
